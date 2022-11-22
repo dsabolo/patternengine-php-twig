@@ -1,5 +1,5 @@
 {
-	"name":             "pattern-lab/patternengine-twig",
+	"name":             "dsabolo/patternengine-php-twig",
 	"description":      "Twig-based PatternEngine for Pattern Lab.",
 	"keywords":         ["twig", "pattern lab", "pattern engine"],
 	"homepage":         "http://patternlab.io",
@@ -23,8 +23,18 @@
 			"PatternLab\\PatternEngine\\Twig": "src/"
 		}
 	},
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/dsabolo/patternlab-php-core"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/dsabolo/Zippy"
+        }
+    ],
 	"require": {
-		"pattern-lab/core": "^2.0.0",
+        "dsabolo/pattern-lab-core": "^0.0.1",
 		"twig/twig":        "~1.0"
 	},
 	"extra": {
