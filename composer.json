@@ -34,7 +34,7 @@
         }
     ],
 	"require": {
-        "dsabolo/pattern-lab-core": "^0.0.1",
+        "dsabolo/pattern-lab-core": "dev-develop",
 		"twig/twig":        "~1.0"
 	},
 	"extra": {
